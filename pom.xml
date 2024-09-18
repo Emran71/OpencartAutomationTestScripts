@@ -59,7 +59,7 @@
 				<dependency>
 				    <groupId>org.testng</groupId>
 				    <artifactId>testng</artifactId>
-				    <version>7.10.2</version>
+				    <version>7.7.1</version>
 				    <scope>test</scope>
 				</dependency>
 				
@@ -74,10 +74,15 @@
 				<dependency>
 				    <groupId>org.apache.commons</groupId>
 				    <artifactId>commons-lang3</artifactId>
-				    <version>3.17.0</version>
+				    <version>3.14.0</version>
 				</dependency>
 
 
-	  
+
+				<dependency>
+					<groupId>WebdriverProject1</groupId>
+					<artifactId>WebdriverProject1</artifactId>
+					<version>0.0.1-SNAPSHOT</version>
+				</dependency>
   </dependencies>
 </project>
