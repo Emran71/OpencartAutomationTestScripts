@@ -1,4 +1,4 @@
-package testCases;
+package testBase;
 
 import java.time.Duration;
 
@@ -29,21 +29,21 @@ public class BaseClass {
 	}
 	
  
-	String randomCharacterGenerate() 
+	public String randomCharacterGenerate() 
 	{
 		String characters = RandomStringUtils.randomAlphabetic(6);
 		return characters;
 	}
      
 	
-	String randomNumberGenerate() 
+	public String randomNumberGenerate() 
 	{
 		String number = RandomStringUtils.randomNumeric(11);
 		return number;
 	}
 
 	
-	String randomAlphaNumaricGenerate() 
+	public String randomAlphaNumaricGenerate() 
 	{
 		String alphanumeric = RandomStringUtils.randomAlphanumeric(10);
 		return alphanumeric;
