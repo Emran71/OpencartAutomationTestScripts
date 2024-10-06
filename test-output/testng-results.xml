@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T12:42:10 BDT" name="Suite" finished-at="2024-10-06T12:42:54 BDT" duration-ms="44076">
+  <suite started-at="2024-10-06T13:55:49 BDT" name="Suite" finished-at="2024-10-06T13:55:57 BDT" duration-ms="7636">
     <groups>
     </groups>
-    <test started-at="2024-10-06T12:42:10 BDT" name="Test" finished-at="2024-10-06T12:42:54 BDT" duration-ms="44076">
+    <test started-at="2024-10-06T13:55:49 BDT" name="Test" finished-at="2024-10-06T13:55:57 BDT" duration-ms="7636">
       <class name="testCases.TC_001_RegistrationTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@e84a8e1]" started-at="2024-10-06T12:42:10 BDT" name="setupBrowser" finished-at="2024-10-06T12:42:51 BDT" duration-ms="41140" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:49 BDT" name="setupBrowser" finished-at="2024-10-06T13:55:54 BDT" duration-ms="4874" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@e84a8e1]" started-at="2024-10-06T12:42:52 BDT" name="Reg_test" finished-at="2024-10-06T12:42:54 BDT" duration-ms="2529" status="PASS">
+        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:54 BDT" name="Reg_test" finished-at="2024-10-06T13:55:56 BDT" duration-ms="2511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reg_test -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@e84a8e1]" started-at="2024-10-06T12:42:54 BDT" name="closetest" finished-at="2024-10-06T12:42:54 BDT" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:56 BDT" name="closetest" finished-at="2024-10-06T13:55:57 BDT" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
