@@ -27,7 +27,7 @@ public class HomePage extends BasePage {
 		txt_registert.click();
 	}
 
-	public void clickregisterLogin() {
+	public void clickRegisterLogin() {
 		txt_login.click();
 	}
 }

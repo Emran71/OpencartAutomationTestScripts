@@ -12,11 +12,11 @@ public class TC_002_LoginTest extends BaseClass {
 	@Test
 	public void loginTest()
 	{
-		logger.info(".................Test Starting................");
+		logger.info(".................Test TC_002_LoginTest Starting................");
 		try {
 			HomePage hp = new HomePage(driver);
 			hp.clickmyAccount();
-			hp.clickregisterLogin();
+			hp.clickRegisterLogin();
 
 			LoginPage lp = new LoginPage(driver);
 			lp.setEmail(p.getProperty("email"));
@@ -24,7 +24,7 @@ public class TC_002_LoginTest extends BaseClass {
 			lp.clickLogin();
 
 			MyAccountPage mcp = new MyAccountPage(driver);
-			boolean tergetpage = mcp.myAccountText();
+			boolean tergetpage = mcp.myAccountTextDisplay();
 
 			Assert.assertTrue(tergetpage);
 		}
@@ -32,5 +32,8 @@ public class TC_002_LoginTest extends BaseClass {
 		{
 			Assert.fail();
 		}
+
+		logger.info(".................Test TC_002_LoginTest Ending................");
 	}
+
 }
