@@ -14,9 +14,9 @@ public class TC_001_RegistrationTest extends BaseClass{
 	{  
 		logger.info(".........Starting TC_001.......");
 		HomePage hp = new HomePage(driver);
-		hp.myAccount();
+		hp.clickmyAccount();
 		logger.info(".......Clicked On My account link......");
-		hp.registerMenu();
+		hp.clickregisterMenu();
 		logger.info(".....Clicked On Register link........");
 
 		try

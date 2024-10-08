@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T13:55:49 BDT" name="Suite" finished-at="2024-10-06T13:55:57 BDT" duration-ms="7636">
+  <suite started-at="2024-10-08T13:58:56 BDT" name="MAster_Suite" finished-at="2024-10-08T13:59:15 BDT" duration-ms="18841">
     <groups>
     </groups>
-    <test started-at="2024-10-06T13:55:49 BDT" name="Test" finished-at="2024-10-06T13:55:57 BDT" duration-ms="7636">
+    <test started-at="2024-10-08T13:58:56 BDT" name="Test" finished-at="2024-10-08T13:59:15 BDT" duration-ms="18841">
       <class name="testCases.TC_001_RegistrationTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:49 BDT" name="setupBrowser" finished-at="2024-10-06T13:55:54 BDT" duration-ms="4874" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@7d42c224]" started-at="2024-10-08T13:58:56 BDT" name="setupBrowser" finished-at="2024-10-08T13:59:06 BDT" duration-ms="10003" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:54 BDT" name="Reg_test" finished-at="2024-10-06T13:55:56 BDT" duration-ms="2511" status="PASS">
+        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@7d42c224]" started-at="2024-10-08T13:59:06 BDT" name="Reg_test" finished-at="2024-10-08T13:59:10 BDT" duration-ms="3825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reg_test -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@2e554a3b]" started-at="2024-10-06T13:55:56 BDT" name="closetest" finished-at="2024-10-06T13:55:57 BDT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@7d42c224]" started-at="2024-10-08T13:59:10 BDT" name="closetest" finished-at="2024-10-08T13:59:10 BDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- testCases.TC_001_RegistrationTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@5ee2b6f9]" started-at="2024-10-08T13:59:10 BDT" name="setupBrowser" finished-at="2024-10-08T13:59:13 BDT" duration-ms="2805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_002_LoginTest@5ee2b6f9]" started-at="2024-10-08T13:59:13 BDT" name="loginTest" finished-at="2024-10-08T13:59:15 BDT" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_002_LoginTest@5ee2b6f9]" started-at="2024-10-08T13:59:15 BDT" name="closetest" finished-at="2024-10-08T13:59:15 BDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testCases.TC_002_LoginTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- MAster_Suite -->
 </testng-results>
