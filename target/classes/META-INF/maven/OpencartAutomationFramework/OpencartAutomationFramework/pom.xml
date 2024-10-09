@@ -78,11 +78,18 @@
 				</dependency>
 
 
-
 				<dependency>
 					<groupId>WebdriverProject1</groupId>
 					<artifactId>WebdriverProject1</artifactId>
 					<version>0.0.1-SNAPSHOT</version>
 				</dependency>
+						
+				<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+				<dependency>
+				    <groupId>org.apache.commons</groupId>
+				    <artifactId>commons-email</artifactId>
+				    <version>1.5</version>
+				</dependency>
+
   </dependencies>
 </project>

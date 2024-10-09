@@ -2,14 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="MAster_Suite">
-	<listeners>
-		<listener class-name="utilities.ExtentReportManager"></listener>
-	</listeners>
+	<groups>
+		<run>
+			<include name="Sanity"></include>
+		</run>
+	</groups>
+	
   <test thread-count="5" name="Test">
 	  <parameter name="OS" value="Windows"></parameter>
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="testCases.TC_001_RegistrationTest"/>
+     <class name="testCases.TC_001_RegistrationTest"/>
       <class name="testCases.TC_002_LoginTest"/>
       <class name="testCases.TC_003_Login_DataDrivenTest"/>
     </classes>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-08T22:20:13 BDT" name="MAster_Suite" finished-at="2024-10-08T22:20:44 BDT" duration-ms="31216">
+  <suite started-at="2024-10-10T04:37:38 BDT" name="MAster_Suite" finished-at="2024-10-10T04:38:28 BDT" duration-ms="50301">
     <groups>
     </groups>
-    <test started-at="2024-10-08T22:20:13 BDT" name="Test" finished-at="2024-10-08T22:20:44 BDT" duration-ms="31216">
-      <class name="testCases.TC_003_Login_DataDrivenTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:13 BDT" name="setupBrowser" finished-at="2024-10-08T22:20:16 BDT" duration-ms="2953" status="PASS">
+    <test started-at="2024-10-10T04:37:38 BDT" name="Test" finished-at="2024-10-10T04:38:28 BDT" duration-ms="50301">
+      <class name="testCases.TC_001_RegistrationTest">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@37ddb69a]" started-at="2024-10-10T04:37:38 BDT" name="setupBrowser" finished-at="2024-10-10T04:37:50 BDT" duration-ms="11672" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:18 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-08T22:20:29 BDT" duration-ms="11091" status="PASS">
+        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@37ddb69a]" started-at="2024-10-10T04:37:50 BDT" name="Reg_test" finished-at="2024-10-10T04:37:52 BDT" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reg_test -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@37ddb69a]" started-at="2024-10-10T04:37:52 BDT" name="closetest" finished-at="2024-10-10T04:37:53 BDT" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testCases.TC_001_RegistrationTest -->
+      <class name="testCases.TC_003_Login_DataDrivenTest">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:37:57 BDT" name="setupBrowser" finished-at="2024-10-10T04:37:59 BDT" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:38:00 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-10T04:38:11 BDT" duration-ms="11101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:29 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-08T22:20:31 BDT" duration-ms="1873" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:38:11 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-10T04:38:15 BDT" duration-ms="3257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:31 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-08T22:20:42 BDT" duration-ms="11267" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:38:15 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-10T04:38:26 BDT" duration-ms="11084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:42 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-08T22:20:44 BDT" duration-ms="2115" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:38:26 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-10T04:38:28 BDT" duration-ms="2171" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,11 +133,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@2e554a3b]" started-at="2024-10-08T22:20:44 BDT" name="closetest" finished-at="2024-10-08T22:20:44 BDT" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@235a0c16]" started-at="2024-10-10T04:38:28 BDT" name="closetest" finished-at="2024-10-10T04:38:28 BDT" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- testCases.TC_003_Login_DataDrivenTest -->
+      <class name="testCases.TC_002_LoginTest">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@6955cb39]" started-at="2024-10-10T04:37:53 BDT" name="setupBrowser" finished-at="2024-10-10T04:37:55 BDT" duration-ms="2082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_002_LoginTest@6955cb39]" started-at="2024-10-10T04:37:55 BDT" name="loginTest" finished-at="2024-10-10T04:37:57 BDT" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_002_LoginTest@6955cb39]" started-at="2024-10-10T04:37:57 BDT" name="closetest" finished-at="2024-10-10T04:37:57 BDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- testCases.TC_002_LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- MAster_Suite -->
 </testng-results>
