@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-16T13:43:21 BDT" name="MAster_Suite" finished-at="2024-10-16T13:44:07 BDT" duration-ms="46183">
+  <suite started-at="2024-10-16T14:31:37 BDT" name="MAster_Suite" finished-at="2024-10-16T14:32:26 BDT" duration-ms="49261">
     <groups>
     </groups>
-    <test started-at="2024-10-16T13:43:21 BDT" name="Test" finished-at="2024-10-16T13:44:07 BDT" duration-ms="46183">
+    <test started-at="2024-10-16T14:31:37 BDT" name="Test" finished-at="2024-10-16T14:32:26 BDT" duration-ms="49261">
       <class name="testCases.TC_001_RegistrationTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@dfddc9a]" started-at="2024-10-16T13:43:21 BDT" name="setupBrowser" finished-at="2024-10-16T13:43:27 BDT" duration-ms="5985" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_RegistrationTest@5b619d14]" started-at="2024-10-16T14:31:38 BDT" name="setupBrowser" finished-at="2024-10-16T14:31:49 BDT" duration-ms="11241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@dfddc9a]" started-at="2024-10-16T13:43:27 BDT" name="Reg_test" finished-at="2024-10-16T13:43:30 BDT" duration-ms="2712" status="PASS">
+        <test-method signature="Reg_test()[pri:0, instance:testCases.TC_001_RegistrationTest@5b619d14]" started-at="2024-10-16T14:31:49 BDT" name="Reg_test" finished-at="2024-10-16T14:31:51 BDT" duration-ms="2685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reg_test -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@dfddc9a]" started-at="2024-10-16T13:43:30 BDT" name="closetest" finished-at="2024-10-16T13:43:30 BDT" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_001_RegistrationTest@5b619d14]" started-at="2024-10-16T14:31:52 BDT" name="closetest" finished-at="2024-10-16T14:31:52 BDT" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- testCases.TC_001_RegistrationTest -->
       <class name="testCases.TC_003_Login_DataDrivenTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:43:35 BDT" name="setupBrowser" finished-at="2024-10-16T13:43:37 BDT" duration-ms="2507" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:31:56 BDT" name="setupBrowser" finished-at="2024-10-16T14:31:58 BDT" duration-ms="2317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:43:39 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T13:43:51 BDT" duration-ms="11340" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:32:00 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T14:32:11 BDT" duration-ms="11052" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:43:51 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T13:43:53 BDT" duration-ms="1925" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:32:11 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T14:32:13 BDT" duration-ms="1940" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:43:53 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T13:44:04 BDT" duration-ms="11438" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:32:13 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T14:32:25 BDT" duration-ms="11335" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:44:04 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T13:44:07 BDT" duration-ms="2664" status="PASS">
+        <test-method signature="verifyLoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:32:25 BDT" name="verifyLoginDDT" data-provider="LoginData" finished-at="2024-10-16T14:32:26 BDT" duration-ms="1665" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,13 +133,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginDDT -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@5f7b97da]" started-at="2024-10-16T13:44:07 BDT" name="closetest" finished-at="2024-10-16T13:44:07 BDT" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_003_Login_DataDrivenTest@1817f1eb]" started-at="2024-10-16T14:32:26 BDT" name="closetest" finished-at="2024-10-16T14:32:26 BDT" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- testCases.TC_003_Login_DataDrivenTest -->
       <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@2b5f4d54]" started-at="2024-10-16T13:43:30 BDT" name="setupBrowser" finished-at="2024-10-16T13:43:33 BDT" duration-ms="2503" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@54dcfa5a]" started-at="2024-10-16T14:31:52 BDT" name="setupBrowser" finished-at="2024-10-16T14:31:54 BDT" duration-ms="2344" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,11 +155,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="loginTest()[pri:0, instance:testCases.TC_002_LoginTest@2b5f4d54]" started-at="2024-10-16T13:43:33 BDT" name="loginTest" finished-at="2024-10-16T13:43:35 BDT" duration-ms="2036" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC_002_LoginTest@54dcfa5a]" started-at="2024-10-16T14:31:54 BDT" name="loginTest" finished-at="2024-10-16T14:31:56 BDT" duration-ms="1916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_002_LoginTest@2b5f4d54]" started-at="2024-10-16T13:43:35 BDT" name="closetest" finished-at="2024-10-16T13:43:35 BDT" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:testCases.TC_002_LoginTest@54dcfa5a]" started-at="2024-10-16T14:31:56 BDT" name="closetest" finished-at="2024-10-16T14:31:56 BDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
